@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: 32 33 36;
+        --color-text: 33 33 33;
+        --color-light: 245 245 245;
+        --color-success: 0 200 81;
+        --color-info: 51 181 229;
+        --color-warn: 255 187 51;
+        --color-error: 254 78 78;
+      }
+    
+      :root[class="dark"] {
+        --color-primary: 195 200 205;
+        --color-text: 33 33 33;
+        --color-light: 245 245 245;
+        --color-success: 0 200 81;
+        --color-info: 51 181 229;
+        --color-warn: 255 187 51;
+        --color-error: 254 78 78;
+      }
+    h1 {
+        @apply flex text-3xl leading-relaxed
+    }
+    h2 {
+        @apply  text-2xl leading-relaxed
+    }
+    h3 {
+        @apply text-xl leading-relaxed
+    }
+    p {
+        @apply text-base leading-relaxed
+    }
+}
+
+@layer components {
+    .btn-link {
+        @apply bg-zinc-800 text-[rgb(195,200,205)] text-sm px-4 py-2 rounded-sm
+    }
+    .btn-link-dark {
+        @apply bg-zinc-200 text-[rgb(32,33,36)] text-sm px-4 py-2 rounded-sm
+    }
+
+    .post{
+        @apply transition duration-200 ease-in-out hover:bg-[#cccccc] hover:text-slate-800 rounded-sm px-2 py-4
+    }
+    
+    .post-href{
+        @apply text-base leading-relaxed
+    }
+
+    .btn-socmed{
+        @apply text-gray-600 hover:text-gray-800 
+    }
+
+    .btn-socmed-dark{
+        @apply text-gray-400 hover:text-white 
+    }
+}

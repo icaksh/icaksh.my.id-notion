@@ -4,6 +4,7 @@
   "private": true,
   "description": "palguno-wicaksono",
   "author": "icaksh",
+  "license": "MIT",
   "keywords": [
     "gatsby"
   ],
@@ -23,6 +24,7 @@
     "gatsby-plugin-sharp": "^5.8.0",
     "gatsby-plugin-sitemap": "^6.8.0",
     "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-source-notion-api": "^0.12.0",
     "gatsby-transformer-sharp": "^5.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
