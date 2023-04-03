@@ -23,10 +23,10 @@
         --color-error: 254 78 78;
       }
     h1 {
-        @apply flex text-3xl leading-relaxed
+        @apply flex text-2xl leading-relaxed font-semibold
     }
     h2 {
-        @apply  text-2xl leading-relaxed
+        @apply text-xl leading-relaxed font-semibold
     }
     h3 {
         @apply text-xl leading-relaxed
@@ -37,6 +37,10 @@
 }
 
 @layer components {
+    .btn-tags {
+        @apply bg-zinc-800 text-[rgb(195,200,205)] text-sm px-4 py-2 rounded-sm
+    }
+
     .btn-link {
         @apply bg-zinc-800 text-[rgb(195,200,205)] text-sm px-4 py-2 rounded-sm
     }
@@ -58,5 +62,13 @@
 
     .btn-socmed-dark{
         @apply text-gray-400 hover:text-white 
+    }
+    
+    .post{
+        @apply text-xs
+    }
+    
+    .code{
+        @apply bg-indigo-200 dark:bg-indigo-900 dark:bg-opacity-50 text-indigo-500 dark:text-indigo-200 px-2 rounded inline-block
     }
 }

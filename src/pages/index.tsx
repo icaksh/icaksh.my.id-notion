@@ -10,10 +10,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Palguno Wicaksono"/>
     <div>
-      <section id="hero" className='pt-12'>
+      <section id="hero" className='prose'>
         <div className="flex flex-wrap">
             <div className="w-full self-center">
-                <h1 className='text-primary font-bold my-2'>Hi, I'm Wicak</h1>
                 <h2 className='text-primary my-2'>Selamat datang di kebun digitalku 🌱</h2>
                 <p className='text-primary my-2 mb-10'>Situs ini berisikan tentang diriku serta apa yang aku tulis saat belajar atau memberikan informasi yang menurutku berguna.</p>
                 <p className='text-primary my-2 mb-10 font-bold italic line-through text-justify	'></p>
